@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 01 - desafio 01</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <form>
+        <p>
+            <label>
+                (R) Vermelho:
+            </label>
+            <input 
+                type="range"
+                min="0"
+                max="255"
+                id="inputRRed"
+            />
+
+            <input 
+                class = "inputNumber"
+                type="text"
+                disabled = "true"
+                id="inputRed"
+            />  
+        
+        </p>    
+        
+        <p>
+            <label>
+                (G) Verde:
+            </label>
+            <input 
+                type="range"
+                min="0"
+                max="255"
+                id="inputRGreen"
+            />
+
+            <input 
+                class = "inputNumber"
+                type="text"
+                disabled = "true"
+                id="inputGreen"
+            />  
+            
+        </p>
+
+        <p>
+            <label>
+                (B) Azul:
+            </label>
+            <input 
+                type="range"
+                min="0"
+                max="255"
+                id="inputRBlue"
+            />
+
+            <input 
+                class = "inputNumber"
+                type="text"
+                disabled = "true"
+                id="inputBlue"
+            />  
+            
+        </p>
+    </form>
+
+    <div class="container">
+        <div class="canvas"></div>
+    </div>
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
